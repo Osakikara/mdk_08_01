@@ -1,0 +1,64 @@
+
+.grid{
+    display: grid;
+    gap: 5px;
+    margin-top: 20px;
+    grid-template-columns: repeat(2,500px) ;
+    grid-template-rows: repeat(3,620px) ;
+    justify-content: center;
+}
+.item1{
+    background: url(../imgforarts/lucy\ bad\ vibes.jpg)no-repeat;
+    background-size: 100%;
+    width: 500px;
+    height: auto;
+    animation: shadow 4s ease infinite;
+}
+.item2{
+    background: url(../imgforarts/SelenaStun1.jpg)no-repeat;
+    background-size: 100%;
+    width: 500px;
+    height: 500px;
+    animation: shadow 4s ease infinite;
+}
+.foritem2{
+    background: url(../imgforarts/Композиция-1.gif)no-repeat;
+    display: cover;
+    width: 500px;
+    height: 120px;
+    margin-top: 500px;
+    animation: shadow 4s ease infinite;
+}
+.item3{
+    background: url(../imgforarts/frieren.jpg) no-repeat;
+    background-size: 100%;
+    width: auto;
+    height: auto;
+    grid-column: span 2;
+    animation: shadow 4s ease infinite;
+}
+.item5{
+    background: url(../imgforarts/ubel001.jpg)no-repeat;
+    background-size: 100%;
+    width: 500p;
+    height: 500px;
+    animation: shadow 4s ease infinite;
+}
+@keyframes shadow
+{
+    0% {
+        box-shadow: 5px 5px 20px 5px #d0a7ff;
+      }
+      25% {
+        box-shadow: 5px 5px 20px 5px #b26fff;
+      }
+      50% {
+        box-shadow: 5px 5px 20px 5px #8f2dff;
+      }
+      75%{
+        box-shadow: 5px 5px 20px 5px #a658ff;
+      }
+      100%{
+        box-shadow: 5px 5px 20px 5px #be84ff;
+      }
+}

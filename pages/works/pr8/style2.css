@@ -1,0 +1,20 @@
+.block{
+    border: 2px solid;
+    margin: 20px;
+}
+.a1{
+    display: flex;
+    justify-content: end;
+    width: auto;
+    padding: 20px;
+}
+p{
+    font-size: 18px;
+    clear: left;
+}
+.img{
+    float: left;
+}
+.div1{
+    margin: 20px;
+}
